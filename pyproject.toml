@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "terminus-cli"
+version = "0.1"
+description = "Lightweight terminal automation with local AI agents"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic-ai",
+    "rich",
+    "typer",
+    "prompt_toolkit",
+]
+
+[project.scripts]
+terminus = "terminus.__main__:app"
