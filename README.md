@@ -14,16 +14,15 @@ Unlike complex IDE extensions or heavyweight automation tools, terminus is:
 
 ## Core Features
 
-- **🤖 Natural Language Interface**: Describe what you want in plain English
-- **📁 Intelligent File Operations**: Read, write, organize, and transform files with AI assistance
-- **⚡ Shell Integration**: Execute commands with smart confirmation and error handling
-- **🧠 Session Memory**: Maintains context across conversations for complex workflows
-- **🔍 Project Understanding**: Analyzes codebases, detects patterns, and suggests improvements
-- **🛡️ Safety First**: Confirmation prompts protect against destructive operations
-- **🔄 Git Integration**: Smart version control with enhanced status and commit workflows
-- **🎯 Task Automation**: Handles repetitive tasks from backups to deployments
-- **📊 System Utilities**: Disk cleanup, file analysis, and system health monitoring
-- **🚀 Development Tools**: Project scaffolding, testing, and code analysis
+- ** Natural Language Interface**: Describe what you want in plain English
+- ** Intelligent File Operations**: Read, write, organize, and transform files with AI assistance
+- ** Shell Integration**: Execute commands with smart confirmation and error handling
+- ** Session Memory**: Maintains context across conversations for complex workflows
+- ** Project Understanding**: Analyzes codebases, detects patterns, and suggests improvements
+- ** Safety First**: Confirmation prompts protect against destructive operations
+- ** Git Integration**: Smart version control with enhanced status and commit workflows
+- ** Task Automation**: Handles repetitive tasks from backups to deployments
+- ** Development Tools**: Project scaffolding, testing, and code analysis
 
 ## Installation
 
@@ -55,7 +54,7 @@ python -m venv env
 env\Scripts\activate
 # On macOS/Linux:
 source env/bin/activate
-pip install -e .
+pip install .
 ```
 
 ## Quick Start
@@ -153,48 +152,6 @@ Instead of memorizing commands, just describe what you want:
 27. **command_examples** - Practical usage examples  
 28. **quick_help** - Context-specific help and guidance  
 
-
-## Real-World Examples
-
-### 🏗️ Project Setup & Management
-```bash
-$ terminus
-> create a new Python project called "data-processor" with proper structure
-> analyze this legacy codebase and suggest modernization steps
-> find all deprecated functions and create migration plan
-```
-
-### 🧹 System Maintenance
-```bash
-$ terminus  
-> clean up my Downloads folder by organizing files by type
-> find and remove duplicate files in this directory
-> check disk usage and suggest cleanup strategies
-```
-
-### 📊 Data & Content Processing
-```bash
-$ terminus
-> convert all .csv files to .json and validate the data
-> merge all markdown documentation into a single file
-> generate a report of code complexity across all Python files
-```
-
-### 🚀 Development Workflows
-```bash
-$ terminus
-> run all tests, fix any failures, and commit the changes
-> create comprehensive documentation for this API
-> set up continuous integration for this project
-```
-
-### 🔍 Analysis & Discovery
-```bash
-$ terminus
-> analyze this project dependencies and suggest optimizations
-> find all TODO comments and prioritize them by importance
-> scan for security vulnerabilities in configuration files
-```
 
 ## Requirements
 
